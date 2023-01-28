@@ -6,15 +6,15 @@ Antes que nada para que tu sitio web detecte el archivo "estilo.css" debes añad
 
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 
-Si quieres eliminar el color de fondo del sitio unicamente elimina esta etiqueta o edita su valor
+Si quieres eliminar el color de fondo del sitio unicamente elimina esta etiqueta o edita su valor, Este codigo  se encuentra en la linea 27 del archivo "estilo.css"
+
 
 	.menu li a:hover{
 	background: #ef8354;
 	}
 
-Este codigo  se encuentra en la linea 27 del archivo "estilo.css"
 
-Para crear un menu, debes estar ubicado dentro de la etiqueta body y añadir este codigo 
+##### Para crear un menu, debes estar ubicado dentro de la etiqueta body y añadir este codigo 
 
 	<ul class="menu"> 
        <li><a href="#">Inicio</a>   </li>
